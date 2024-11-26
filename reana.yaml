@@ -1,0 +1,9 @@
+inputs:
+  files:
+    - Snakefile
+workflow:
+  type: snakemake
+  file: Snakefile
+outputs:
+  files:
+    - wordcount.txt
